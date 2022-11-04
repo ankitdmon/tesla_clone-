@@ -6,7 +6,7 @@ import styles from './styles';
 
 const carItem = (props) => {
 
-  const { name, tagLine, tagLineCTA, image } = props;
+  const { name, tagLine, tagLineCTA, image } = props.car;
 
   return (
     <View style={styles.carContainer}>
